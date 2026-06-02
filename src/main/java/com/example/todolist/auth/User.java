@@ -3,6 +3,7 @@ package com.example.todolist.auth;
 import jakarta.persistence.*;
 
 @Entity
+@Table(name = "users")
 public class User {
 
     @Id
